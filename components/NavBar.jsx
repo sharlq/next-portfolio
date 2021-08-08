@@ -1,15 +1,15 @@
 import React,{useEffect,useState} from 'react'
 import axios from 'axios'
-const NavBar = () => {
-    const [resumeLink,setResumeLink] = useState("");
-    const fetchResume = async()=>{ 
-        const response = await axios.get("/api/resume")
-        setResumeLink(response.data[0].link)
-    }
+const NavBar = ({resume}) => {
+    // const [resumeLink,setResumeLink] = useState("");
+    // const fetchResume = async()=>{ 
+    //     const response = await axios.get("/api/resume")
+    //     setResumeLink(response.data[0].link)
+    // }
 
-    useEffect(()=>{
-        fetchResume()
-    },[])
+    // useEffect(()=>{
+    //     fetchResume()
+    // },[])
     return (
         <div className="navBar" >
             <div className="navBar-list">
@@ -21,7 +21,7 @@ const NavBar = () => {
                 <a href="https://github.com/sharlq/next-portfolio">Portfolio Code</a>
             </div>
                 
-                <a href={resumeLink} className="resume">Resume</a>
+                <a href={resume} className="resume">Resume</a>
         </div>
     )
 }

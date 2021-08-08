@@ -1,19 +1,19 @@
 import React,{useState,useEffect} from 'react'
 import axios from 'axios'
 
-const MySkills = () => {
+const MySkills = ({skills}) => {
 
-    const [skills,setSkills] = useState();
+    // const [skills,setSkills] = useState();
 
-    const fetchSkills =async()=>{
-        const response = await axios.get('/api/skills')
-        setSkills(response.data[0])
-    }
+    // const fetchSkills =async()=>{
+    //     const response = await axios.get('/api/skills')
+    //     setSkills(response.data[0])
+    // }
 
-    useEffect(()=>{
-        fetchSkills()
+    // useEffect(()=>{
+    //     fetchSkills()
 
-    },[])
+    // },[])
 
     return (
         <>
