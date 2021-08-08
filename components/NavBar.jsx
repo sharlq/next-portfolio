@@ -18,7 +18,7 @@ const NavBar = () => {
                 <a href="#mySkills">My Skills</a>
                 <a href="#aboutMe">About Me</a>
                 <a href="#contactMe">Contact Me</a>
-                <a href="https://github.com/sharlq/myPortfolio">Portfolio Code</a>
+                <a href="https://github.com/sharlq/next-portfolio">Portfolio Code</a>
             </div>
                 
                 <a href={resumeLink} className="resume">Resume</a>
