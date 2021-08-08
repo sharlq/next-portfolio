@@ -1,12 +1,26 @@
 
-import React from 'react'
-import {CardAnimated} from 'sharlq-comp-lib'
-import card from './cardsData'
-import CardContent from './CardContent'
+import React,{useState,useEffect} from 'react'
+import {CardAnimated} from 'sharlq-comp-lib';
+import CardContent from './CardContent';
+import axios from 'axios';
+
 const Myprojects = () => {
- 
+   let [card,setCard] = useState(false)
+   const fetchCardsData = async() =>{
+      let data = await axios.get('/api/cards')
+      console.log(data)
+      setCard(data.data)
+   }
+
+   useEffect(()=>{
+      fetchCardsData();
+      console.log(card)
+   },[])
+
     return (
+      
         <div id="myProjects" className="myProjects">
+          { card[0] &&
             <div className="myProjects-projectsGrid">
             <div>
               <p className="myProjects-projectsGrid_title">
@@ -75,8 +89,8 @@ const Myprojects = () => {
             
             </div>
 
-
-           
+      
+           }
         </div>
     )
 }
