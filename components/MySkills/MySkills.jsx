@@ -6,7 +6,7 @@ const MySkills = () => {
     const [skills,setSkills] = useState();
 
     const fetchSkills =async()=>{
-        const response = await axios.get('/api/skills')
+        const response = await axios.get('api/skills')
         setSkills(response.data[0])
     }
 
