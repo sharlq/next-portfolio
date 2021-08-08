@@ -1,0 +1,55 @@
+.myProjects{
+   
+   // height: 145vh;
+   margin-top: 7vh;
+    &-projectsGrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        height: fit-content;
+        width: fit-content;
+        margin: auto;
+        margin-top: 5vh;
+        &_title{
+            color: black;
+            font-size: 48px;
+            font-weight: 800;
+        }
+        &_description{
+            width: 20vw;
+            color:black;
+            font-size: 28px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+    }
+    &-secondProjectsGrid{
+        padding-top: 10vh;
+        display: grid;
+       grid-template-rows:1fr 1fr 1fr ;
+        
+        align-items: center;
+        justify-items: center;
+        height: 70vh;
+        width: 60vw;
+        margin: auto;
+        &_title{
+            color: black;
+            font-size: 48px;
+            font-weight: 800;
+        }
+        &_description{
+            width: 20vw;
+            color:black;
+            font-size: 28px;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+    }
+    .inner{
+        display: flex;
+        margin: 2vh auto ;
+    }
+}

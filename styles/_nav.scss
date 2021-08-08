@@ -1,0 +1,40 @@
+.navBar{
+width: 1200px;
+display: flex;
+justify-content: space-between;
+margin: auto;
+padding-top: 40px;
+&-list{
+    display: flex;
+    justify-content: space-between;
+    width:600px;
+    align-items: flex-end;
+    font-weight: 600;
+    &_name{
+        font-size: 24px;
+        color: black;
+    }
+    
+}
+
+}
+a{
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+a:hover{
+    color:black;
+}
+
+.resume{
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #007eff;
+    color: white !important;
+    font-weight: 500;
+    cursor: pointer;
+}
+.resume:hover{
+    background-color: #3f9af7;
+}

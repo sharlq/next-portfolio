@@ -1,0 +1,60 @@
+.aboutMe{
+    margin-top: 10vh;
+    width: 100%;
+    background: #6937ff;
+    border-top-left-radius: 100px;
+    &-content{
+        width:1200px;
+        margin : auto;
+        &_title{
+            padding-top: 7.5vh;
+            font-size: 48px;
+            color: white;
+        }
+        &_text{
+            padding-top: 2vh;
+            font-size: 24px;
+            color: white;
+        }
+    }
+    p{
+        margin-left: 1vw;
+        color: white;
+        font-size: 22px;
+       }
+}
+.icon{
+    font-size: 75px !important;
+    
+}
+path{
+    color: white !important;
+}
+.contacts{
+margin: auto;
+width: 80%;
+display: flex;
+justify-content:space-between ;
+margin-top: 5vh;
+}
+.email{
+    display: flex;
+    align-items: center;
+}
+.contactMe{
+    background: #221e41;
+    width: 95%;
+    border-top-right-radius: 100px;
+    height: 40vh;
+    margin-top: 10vh;
+    &-content{
+        width:1200px;
+        margin : auto;
+        &_title{
+        padding-top: 7.5vh;
+            font-size: 48px;
+            color: white;
+            margin: auto;}
+    }
+   
+}

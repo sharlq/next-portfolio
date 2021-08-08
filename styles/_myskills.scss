@@ -1,0 +1,98 @@
+.mySkills{
+    margin:  0 auto 0 auto;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    width: 1200px;
+    &-title{
+        width: fit-content;
+        margin: auto;
+        font-size: 48px;
+        color: black;
+    }
+    &-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        margin-top: 5vh;
+    .skills{
+        @extend .card;
+        display: flex;
+        flex-direction: column;
+        width: 480px;
+        height: auto;
+        background: #3a3c70;
+        box-shadow: none;
+        &-title{
+            color:white ;
+            width: fit-content;
+            margin: 0 auto 0 auto ;
+            font-size: 22px;
+            font-weight: 600;
+        }
+        &-secondaryTitle{
+            color:white ;
+            width: fit-content;
+            margin: 2vh auto 0  0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        &-list{
+            list-style-type: none;
+            li{
+                font-size: 16px;
+                color:white ;
+                text-indent: -5px;
+                margin-top: 5px;
+            }
+            li:before{
+                font-weight: 800;
+                font-size: 20px;
+                content:'- ';
+                text-indent: -5px;
+            }
+        }
+    }
+
+   
+    }
+}
+.toLearn{
+    
+    display: flex;
+    justify-content: center;
+    &-card{
+    @extend .card;
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+    padding-bottom: 60px;
+    background:#16426f;
+    box-shadow: none;
+    height: fit-content;
+
+    &_title{
+        color:white ;
+        width: fit-content;
+        margin: 0 auto 0 auto ;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    &_list{
+            
+        font-size: 1vw;
+        list-style-type: none;
+        li{
+            font-size: 16px;
+            color:white ;
+            text-indent: -5px;
+            margin-top: 5px;
+        }
+        li:before{
+            font-weight: 800;
+            font-size: 20px;
+            content:'- ';
+            text-indent: -5px;
+        }
+    }
+    }
+}

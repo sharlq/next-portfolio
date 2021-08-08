@@ -1,0 +1,36 @@
+ html{
+    scroll-behavior: smooth;
+     //background: linear-gradient(137deg, #f0f8ff, #cfddff)
+ }
+ body{
+    width:  100%;
+    overflow: overlay;
+}
+*{
+    font-size: 16px;
+    margin: 0;
+    font-family:-apple-system, Roboto, BlinkMacSystemFont, 'Segoe UI',  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    color: rgb(88, 88, 88);
+}
+#root{
+    height: inherit ;
+}
+.app{
+    height: inherit;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    background: transparent;
+    
+  }
+  
+::-webkit-scrollbar-track {
+    background: transparent !important;
+
+  }
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        178deg
+        , #7a4eff, #332e55);
+    border-radius: 25px;
+  }

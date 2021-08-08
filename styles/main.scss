@@ -1,0 +1,22 @@
+@import "config";
+@import "Intro";
+@import 'nav';
+@import 'MyProjects';
+@import 'card';
+@import 'myskills';
+@import 'footer';;
+@import 'individualCards';
+@import 'responsive';
+.app{
+    margin: auto;
+}
+.loading{
+    width: fit-content;
+    height: 50vh;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 5vh;
+}
+.animatedCard {
+grid-template-columns: 1fr 1fr;
+}

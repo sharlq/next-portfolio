@@ -1,0 +1,51 @@
+
+$width : 300px;
+
+.intro{
+    height: 50vh;
+}
+.title{
+    width: fit-content;
+    margin: auto;
+}
+
+.square{
+    background: linear-gradient(137deg, #f0f8ff, #cfddff);
+    border-bottom-right-radius:150px ;
+}
+
+path{
+    color: black;
+    stroke: rgb(0, 0, 0);
+    stroke-width: 1px;
+  
+}
+
+.textContainer{
+    position: relative;
+    width: $width;
+    height: 100px;
+    margin: auto;
+    margin-top:20vh ;
+}
+
+.scaling-svg-container {
+    position: absolute;
+    width: $width;
+    padding: 0;
+    padding-bottom: 40px;
+   }
+   .scaling-svg {
+    position: absolute;
+    height: 100%;
+    width: -moz-fit-content;
+    width: $width;
+   }
+   .scaling-svg2 {
+    position: absolute;
+    height: 100%;
+    width: -moz-fit-content;
+    width: $width;
+    margin-top: 5vh;
+    margin-left: 5px;
+   }
