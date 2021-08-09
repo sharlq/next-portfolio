@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Nav from '../components/NavBar'
 import Intro from '../components/intro/intro'
 import MyProjects from '../components/Myprojects/Myprojects'
@@ -44,6 +43,6 @@ export const getStaticProps= async(context) => {
       skills,
       resume
     },
-    revalidate:300 // will be passed to the page component as props
+    revalidate:300 
   }
 }

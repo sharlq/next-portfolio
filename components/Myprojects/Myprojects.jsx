@@ -1,20 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { CardAnimated } from "sharlq-comp-lib";
 import CardContent from "./CardContent";
-import axios from "axios";
 
 const Myprojects = ({card}) => {
-//   const [card, setCard] = useState(false);
-//   const fetchCardsData = async () => {
-//     let data = await axios.get("/api/cards");
-//     console.log(data);
-//     setCard(data.data);
-//   };
-
-//   useEffect(() => {
-//     fetchCardsData();
-//     console.log(card);
-//   }, []);
 
   return (
     <div id="myProjects" className="myProjects">

@@ -1,19 +1,8 @@
-import React,{useState,useEffect} from 'react'
-import axios from 'axios'
+import React from 'react'
+
 
 const MySkills = ({skills}) => {
 
-    // const [skills,setSkills] = useState();
-
-    // const fetchSkills =async()=>{
-    //     const response = await axios.get('/api/skills')
-    //     setSkills(response.data[0])
-    // }
-
-    // useEffect(()=>{
-    //     fetchSkills()
-
-    // },[])
 
     return (
         <>

@@ -1,15 +1,7 @@
-import React,{useEffect,useState} from 'react'
-import axios from 'axios'
-const NavBar = ({resume}) => {
-    // const [resumeLink,setResumeLink] = useState("");
-    // const fetchResume = async()=>{ 
-    //     const response = await axios.get("/api/resume")
-    //     setResumeLink(response.data[0].link)
-    // }
+import React from 'react'
 
-    // useEffect(()=>{
-    //     fetchResume()
-    // },[])
+const NavBar = ({resume}) => {
+
     return (
         <div className="navBar" >
             <div className="navBar-list">

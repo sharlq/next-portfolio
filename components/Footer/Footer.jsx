@@ -20,7 +20,7 @@ const Footer = () => {
         </p>
         <p className="aboutMe-content_text">
           though the past months i have self-learned web development and I am
-          aiming for a career in this fieldgit
+          aiming for a career in this field
         </p>
       </div>
       <div className="contactMe">
